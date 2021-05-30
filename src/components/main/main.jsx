@@ -5,7 +5,7 @@ export default function main() {
         <div className="main_bg">
             <div className="main_cont">
                 <div className="img_cont">
-                    <img src="/gengar.jpeg" alt="image" id="gengar" />
+                    <img src="gengar.jpeg" alt="image" id="gengar" />
                 </div>
                 <div className="main_text">
                     <p id="name">PUNARV PAWADE</p>
