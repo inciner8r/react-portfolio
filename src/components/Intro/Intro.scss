@@ -1,7 +1,7 @@
 @import url("https://fonts.googleapis.com/css2?family=Josefin+Sans&display=swap");
 .intro {
   margin: 5vh;
-  height: clamp(400px, 70vh, 1000px);
+  // height: clamp(400px, 70vh, 1000px);
   width: clamp(250px, 70vw, 2000px);
   box-shadow: rgba(0, 0, 0, 0.2) 10px 10px 10px,
     rgba(0, 0, 0, 0.1) -10px -10px 10px;
@@ -27,7 +27,7 @@
     align-items: center;
 
     .name {
-      font-size: 3rem;
+      font-size: 4rem;
       color: rgb(24, 41, 71);
 
       @media only screen and (max-width: 1000px) {
@@ -38,13 +38,13 @@
       margin: 10px 0px;
       display: flex;
       align-items: flex-start;
-      font-size: 1.2rem;
+      font-size: 1.4rem;
       @media only screen and (max-width: 1000px) {
         font-size: 1rem;
       }
     }
     .nickname {
-      font-size: 2.5rem;
+      font-size: 3rem;
       color: rgb(12, 178, 255);
       @media only screen and (max-width: 1000px) {
         font-size: 1.7rem;
@@ -54,6 +54,7 @@
       margin: 20px;
       display: grid;
       place-items: center;
+      font-size: 2rem;
     }
   }
 }
