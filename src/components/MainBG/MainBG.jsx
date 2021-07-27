@@ -5,7 +5,7 @@ import "./mainBG.scss"
 
 const MainBG = () => {
     return (
-        <div className="mainbg" style={{background: `url('${process.env.PUBLIC_URL}/assets/background.jpg')`}}>
+        <div className="mainbg" style={{backgroundImage: `url('${process.env.PUBLIC_URL}/assets/background.jpg')`}}>
             <Intro/>
             <Navspace/>
         </div>
