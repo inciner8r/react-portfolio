@@ -22,6 +22,27 @@ a:active {
   .links {
     display: flex;
 
+    .link-btn-active {
+      background-color: rgba(0, 0, 0, 0.5);
+    }
+    .link-btn {
+      display: flex;
+      align-items: center;
+      transition: all 0.5s;
+
+      div {
+        font-size: 1.3rem;
+        width: 0;
+        overflow: hidden;
+        transition: all 0.5s;
+      }
+      .link-active {
+        width: auto;
+        padding: 0px 10px;
+        transition: all 0.5s;
+      }
+    }
+
     & > * {
       padding: 3vw;
       //padding: 15px 15px;
