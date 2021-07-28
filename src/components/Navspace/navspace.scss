@@ -30,11 +30,18 @@ a:active {
       align-items: center;
       transition: all 0.5s;
 
+      .link-icon {
+        position: relative;
+        z-index: -1;
+      }
+
       div {
         font-size: 1.3rem;
         width: 0;
         overflow: hidden;
         transition: all 0.5s;
+        position: relative;
+        z-index: -1;
       }
       .link-active {
         width: auto;

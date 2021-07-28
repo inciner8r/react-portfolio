@@ -4,31 +4,18 @@ import { FaGithub, FaLinkedin, FaTwitter, FaTelegram, FaDiscord } from "react-ic
 
 const Navspace = () => {
     const showLink = (e) => {
-        //e.preventDefault()
         var targ = e.target
-        if(e.target.tagName === "path" ){
-            targ = e.target.parentElement.parentElement
-        }
-        if(e.target.tagName === "svg"){
-            targ = e.target.parentElement
-        }
-        if(e.target.className === "link-text" || e.target.classList[0] === "link-text"){
-            targ = e.target.parentElement
-        }
         if(targ.childNodes[1].classList[1] !== "link-active"){
-            let childs = document.querySelector(".links").childNodes
-            childs.forEach(element => {
-                if(element.childNodes[1].classList[1] === "link-active"){
-                    element.childNodes[1].classList.toggle("link-active")
-                    element.classList.toggle("link-btn-active")
-                }
-            });
-            e.preventDefault()
-            targ.classList.toggle("link-btn-active")
-            targ.childNodes[1].classList.toggle("link-active")
+                e.preventDefault()
+                    if(document.querySelector(".link-active") !== null){
+                        document.querySelector(".link-active").classList.toggle("link-active")
+                        document.querySelector(".link-btn-active").classList.toggle("link-btn-active")
+                    }     
+                targ.classList.toggle("link-btn-active")
+                targ.childNodes[1].classList.toggle("link-active")             
+            }
         }
-        //targ.childNodes[1].classList.toggle("link-active")
-    }
+    
     return (
         <div className="navspace">
             <ul className="links">
