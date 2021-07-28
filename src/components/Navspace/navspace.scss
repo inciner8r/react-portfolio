@@ -28,33 +28,36 @@ a:active {
     .link-btn {
       display: flex;
       align-items: center;
-      transition: all 0.5s;
+      transition: all 0.5s linear;
 
-      .link-icon {
+      .link-btn-bg-active {
+        background-color: rgba(0, 0, 0, 0.5);
+      }
+
+      .nav-links-bg {
+        display: flex;
+        align-items: center;
+        justify-content: center;
         position: relative;
         z-index: -1;
-      }
+        padding: 3vw;
+        @media only screen and (min-width: 800px) {
+          padding: 20px 25px;
+        }
 
-      div {
-        font-size: 1.3rem;
-        width: 0;
-        overflow: hidden;
-        transition: all 0.5s;
-        position: relative;
-        z-index: -1;
-      }
-      .link-active {
-        width: auto;
-        padding: 0px 10px;
-        transition: all 0.5s;
-      }
-    }
-
-    & > * {
-      padding: 3vw;
-      //padding: 15px 15px;
-      @media only screen and (min-width: 800px) {
-        padding: 20px 25px;
+        div {
+          visibility: hidden;
+          font-size: 1.3rem;
+          width: 0;
+          overflow: hidden;
+          transition: all 0.5s linear;
+        }
+        .link-active {
+          width: auto;
+          padding: 0px 10px;
+          transition: all 0.5s linear;
+          visibility: visible;
+        }
       }
     }
   }
