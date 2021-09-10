@@ -5,7 +5,7 @@ import './Intro.scss'
 const Intro = () => {
     return (
         <div className="intro">
-            <img src="assets/pfp.jpg" alt="placeholder" />
+            <img id="pfp" src="assets/pfp.jpg" alt="placeholder" />
             <div className="intro__info">
                 <div className="name">Punarv Pawade</div> 
                 <div className="aka">aka</div>
