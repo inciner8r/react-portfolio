@@ -31,7 +31,7 @@ const Navspace = () => {
                         <div className="link-text">Linkedin</div>
                     </div>
                 </a>
-                <a href="https://twitter.com/incinerator_17" target="_blank" rel="noreferrer" className="twitter link-btn" onClick={showLink}>
+                <a href="https://twitter.com/inciner8rKek" target="_blank" rel="noreferrer" className="twitter link-btn" onClick={showLink}>
                     <div className="nav-links-bg">
                         <FaTwitter className="link-icon" size="32px"/>
                         <div className="link-text">Twitter</div>
