@@ -19,7 +19,7 @@ const Navspace = () => {
     return (
         <div className="navspace">
             <ul className="links">
-                <a href="https://github.com/inciner8r" target="_blank" rel="noreferrer" className="git link-btn" onClick={showLink}>
+                <a href="https://github.com/Inc1ner8r" target="_blank" rel="noreferrer" className="git link-btn" onClick={showLink}>
                     <div className="nav-links-bg">                     
                         <FaGithub className="link-icon" size="32px"/>
                         <div className="link-text">Github</div>
