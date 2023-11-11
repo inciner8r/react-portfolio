@@ -19,7 +19,7 @@ const Navspace = () => {
     return (
         <div className="navspace">
             <ul className="links">
-                <a href="https://github.com/Inc1ner8r" target="_blank" rel="noreferrer" className="git link-btn" onClick={showLink}>
+                <a href="https://github.com/inciner8r" target="_blank" rel="noreferrer" className="git link-btn" onClick={showLink}>
                     <div className="nav-links-bg">                     
                         <FaGithub className="link-icon" size="32px"/>
                         <div className="link-text">Github</div>
@@ -31,13 +31,13 @@ const Navspace = () => {
                         <div className="link-text">Linkedin</div>
                     </div>
                 </a>
-                <a href="https://twitter.com/Inc1ner8r" target="_blank" rel="noreferrer" className="twitter link-btn" onClick={showLink}>
+                <a href="https://twitter.com/inciner8rz" target="_blank" rel="noreferrer" className="twitter link-btn" onClick={showLink}>
                     <div className="nav-links-bg">
                         <FaTwitter className="link-icon" size="32px"/>
                         <div className="link-text">Twitter</div>
                     </div>
                 </a>
-                <a href="https://t.me/Inc1ner8r" target="_blank" rel="noreferrer" className="telegram link-btn" onClick={showLink}>
+                <a href="https://t.me/inciner8r" target="_blank" rel="noreferrer" className="telegram link-btn" onClick={showLink}>
                     <div className="nav-links-bg">
                         < FaTelegram className="link-icon" size="32px"/>
                         <div className="link-text">Telegram</div>
