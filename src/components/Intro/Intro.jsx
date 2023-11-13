@@ -7,7 +7,7 @@ const Intro = () => {
         <div className="intro">
             <img id="pfp" src="assets/pfp.jpg" alt="placeholder" />
             <div className="intro__info">
-                <div className="name">Punarv Pawade</div> 
+                <div className="name">ROhitPawar</div> 
                 <div className="aka">aka</div>
                 <div className="nickname">Incinerator</div>
                 <div className="info">WIP // More to come // maibi??</div>
